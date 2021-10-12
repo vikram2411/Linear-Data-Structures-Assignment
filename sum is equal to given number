@@ -1,0 +1,12 @@
+int find_sumPair (A[], n, K)
+{
+  for( i = 0 to n-1 )
+  {
+     for(j = i+1 to n-1)
+     { 
+         if(A[i]+A[j] == K)
+         return 1
+     }
+  }
+return -1
+}
