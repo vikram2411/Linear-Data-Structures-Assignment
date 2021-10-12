@@ -1,0 +1,9 @@
+var someString = 'aabcbd';
+
+
+
+var firstNonRepeatedCharacter = function(string) {
+for(var i = 0; i < someString.length; i++){
+
+}
+};
